@@ -30,3 +30,35 @@ summary.lm(simp)
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
 
+
+## Model LENGTH ~ AGE
+
+
+```{r}
+AGE <- lm(LENGTH~AGE,data=bears)
+plot(LENGTH~AGE,data=bears)
+abline(AGE)
+summary.lm(AGE)
+```
+
+
+## Model LENGTH ~ HEADLEN
+
+
+```{r}
+HEADLEN <- lm(LENGTH~HEADLEN,data=bears)
+plot(LENGTH~HEADLEN,data=bears)
+abline(HEADLEN)
+summary.lm(HEADLEN)
+```
+
+
+## Model LENGTH ~ CHEST
+
+
+```{r}
+CHEST <- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(CHEST)
+summary.lm(CHEST)
+```
