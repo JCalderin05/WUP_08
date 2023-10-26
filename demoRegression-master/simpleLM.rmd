@@ -72,7 +72,15 @@ abline(HEADWTH)
 summary.lm(HEADWTH)
 ```
 
+## Model LENGTH ~ WEIGHT
 
+
+```{r}
+WEIGHT <- lm(LENGTH~WEIGHT,data=bears)
+plot(LENGTH~WEIGHT,data=bears)
+abline(WEIGHT)
+summary.lm(WEIGHT)
+```
 
 
 
