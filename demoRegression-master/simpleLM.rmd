@@ -55,10 +55,27 @@ summary.lm(HEADLEN)
 
 ## Model LENGTH ~ CHEST
    
-
 ```{r}
 CHEST <- lm(LENGTH~CHEST,data=bears)
 plot(LENGTH~CHEST,data=bears)
 abline(CHEST)
 summary.lm(CHEST)
 ```
+
+## Model LENGTH ~ HEADWTH
+
+
+```{r}
+HEADWTH <- lm(LENGTH~HEADWTH,data=bears)
+plot(LENGTH~HEADWTH,data=bears)
+abline(HEADWTH)
+summary.lm(HEADWTH)
+```
+
+
+
+
+
+
+
+
