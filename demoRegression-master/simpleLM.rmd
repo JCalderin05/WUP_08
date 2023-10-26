@@ -54,7 +54,7 @@ summary.lm(HEADLEN)
 
 
 ## Model LENGTH ~ CHEST
-
+   
 
 ```{r}
 CHEST <- lm(LENGTH~CHEST,data=bears)
