@@ -42,6 +42,7 @@ summary.lm(AGE)
 ```
 
 
+
 ## Model LENGTH ~ HEADLEN
 
 
@@ -83,6 +84,9 @@ summary.lm(WEIGHT)
 ```
 
 
+## Discussion and Conclusion 
+
+The model that showed the largest adjusted R-Squared is LENGTH ~ HEADLEN at 0.8434. This was the best model to determine the bear's length. The lowest adjusted R-Squared was model LENGTH ~ AGE at 0.5073. This model would be the worst one to determine the bear's length. 
 
 
 
